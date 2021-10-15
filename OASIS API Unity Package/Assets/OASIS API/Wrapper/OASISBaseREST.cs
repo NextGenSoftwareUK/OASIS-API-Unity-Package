@@ -8,11 +8,22 @@ namespace OASIS.BASE_REST
     {
         public static IEnumerator OnGetRequest(string finalURL, System.Action<string> callback)
         {
-            using var request = new UnityWebRequest(finalURL);
-            request.method = UnityWebRequest.kHttpVerbGET;
-            request.downloadHandler = new DownloadHandlerBuffer();
+            using var request = UnityWebRequest.Get(finalURL);
+            request.SetRequestHeader("Content-Type", "application/json");
             yield return request.SendWebRequest();
-            callback(request.downloadHandler.text);
+
+            if (request.result == UnityWebRequest.Result.Success)
+            {
+                Debug.Log("success");
+                callback?.Invoke(request.downloadHandler.text);
+            }
+            else
+            {
+                Debug.Log("error");
+                callback?.Invoke(request.error);
+            }
+        }
+
         }
         /*
                 public static async Task<string> OnPostRequest(string finalURL, string inputJSON)

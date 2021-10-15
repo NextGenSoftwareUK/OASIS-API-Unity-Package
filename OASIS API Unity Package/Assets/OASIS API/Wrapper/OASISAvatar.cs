@@ -8,9 +8,9 @@ namespace OASIS.AVATAR
     {
         private const string BASE_LIVE_URL = "https://api.oasisplatform.world/";
 
-        public string GetTerms(Action<string> callback)
+        public void GetTerms(Action<string> callback)
         {
-            StartCoroutine(OASISBaseREST.OnGetRequest(BASE_LIVE_URL + "/api/avatar/GetTerms", result => callback.Invoke(result)));
+            StartCoroutine(OASISBaseREST.OnGetRequest(BASE_LIVE_URL + "api/avatar/GetTerms", callback));
         }
     }
 }
