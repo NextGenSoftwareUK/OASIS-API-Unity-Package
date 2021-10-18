@@ -1,4 +1,5 @@
 using OASIS.AVATAR;
+using OASIS.AVATAR.JSON;
 using UnityEngine;
 
 public class TestScript : MonoBehaviour
@@ -8,6 +9,13 @@ public class TestScript : MonoBehaviour
     private void Start()
     {
         oasisAvatar = FindObjectOfType<OASISAvatar>();
-        oasisAvatar.GetTerms((result) => Debug.Log(result));
+        var authenticationJson = new OASISAvatarJSONInputStructs.Authenticate();
+        authenticationJson.email = "prasanta.contact@gmail.com";
+        authenticationJson.password = "ThisTestPass";
+
+        oasisAvatar.DeleteAvatarByIdAndProviderType("TestID", oasisAvatar.GetCurrentProviderType(), true, (result) =>
+        {
+            Debug.Log(result);
+        });
     }
 }
