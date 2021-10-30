@@ -1,16 +1,18 @@
+using OASIS.AVATAR;
+using SimpleJSON;
 using UnityEditor;
 using UnityEngine;
 
 namespace OASISAPI.Editor
 {
-    [CustomEditor(typeof(OASIS.BASE_REST.OASISBaseREST))]
     public class OASISAPIBaseManager : EditorWindow
     {
         public Texture OASIS_LOGO;
 
-        private string LiveOASISVersion = "vX.X";
-        private string StagingOASISVersion = "vX.X";
-        private string[] OASIS_Version_Options = new string[] { "Live", "Staging", "DLL" };
+        private static OASISAvatar oasisAvatar;
+        private static string LiveOASISVersion = "vX.X";
+        private static string StagingOASISVersion = "vX.X";
+        private string[] OASIS_Version_Options = new string[] { "Live", "Staging", "DLL(Coming Soon)" };
         private string[] OASIS_Provider_Options = new string[] { "Default", "HoloOASIS", "EOSIOOASIS", "EthereumOASIS", "SolanaOASIS", "MongoDBOASIS", "SQLiteOASIS", "Neo4jOASIS", "ActivityPubOASIS", "ThreefoldOASIS" };
 
         [MenuItem("OASIS/Settings")]
@@ -19,6 +21,17 @@ namespace OASISAPI.Editor
             EditorWindow window = GetWindow<OASISAPIBaseManager>("OASIS API Settings");
             window.maxSize = new Vector2(462, 540);
             window.minSize = new Vector2(462, 540);
+            oasisAvatar = FindObjectOfType<OASISAvatar>();
+            oasisAvatar.GetLiveOASISVersion((result) =>
+            {
+                JSONNode data = JSON.Parse(result);
+                LiveOASISVersion = data["result"];
+            });
+            oasisAvatar.GetStagingOASISVersion((result) =>
+            {
+                JSONNode data = JSON.Parse(result);
+                StagingOASISVersion = data["result"];
+            });
         }
 
         public void OnGUI()
@@ -44,7 +57,9 @@ namespace OASISAPI.Editor
             EditorStyles.label.fontStyle = FontStyle.Bold;
             EditorGUILayout.LabelField("OASIS API Version : ", GUILayout.Width(120));
             EditorStyles.label.fontStyle = FontStyle.Normal;
-            EditorPrefs.SetInt("OASISVersion", EditorGUILayout.Popup(EditorPrefs.GetInt("OASISVersion", 0), OASIS_Version_Options));
+            int changedVersion = EditorGUILayout.Popup(EditorPrefs.GetInt("OASISVersion", 0), OASIS_Version_Options);
+            if (changedVersion != 2)
+                EditorPrefs.SetInt("OASISVersion", changedVersion);
             EditorGUILayout.HelpBox($" LIVE : Stable Release ({LiveOASISVersion})\n Staging : Beta Testing ({StagingOASISVersion})\n DLL : Native DLL", MessageType.Info);
             EditorGUILayout.EndVertical();
 
@@ -55,9 +70,9 @@ namespace OASISAPI.Editor
             EditorGUILayout.LabelField("OASIS Provider Type : ", GUILayout.Width(200));
             EditorStyles.label.fontStyle = FontStyle.Normal;
             EditorPrefs.SetInt("OASISProviderType", EditorGUILayout.Popup(EditorPrefs.GetInt("OASISProviderType", 0), OASIS_Provider_Options));
-            EditorGUILayout.HelpBox($" Default : The Fastest Provider that can be connected to)\n" +
-                                    $" HoloOASIS : The Holochain Provider for OASIS)\n" +
-                                    $" EOSIOOASIS : The EOSIO Provider for OASIS)\n" +
+            EditorGUILayout.HelpBox($" Default : The Fastest Provider that can be connected to\n" +
+                                    $" HoloOASIS : The Holochain Provider for OASIS\n" +
+                                    $" EOSIOOASIS : The EOSIO Provider for OASIS\n" +
                                     $" EthereumOASIS : The Ethereum Provider for OASIS\n" +
                                     $" SolanaOASIS : The Solana Provider for OASIS\n" +
                                     $" MongoDBOASIS : The MongoDB Provider for OASIS\n" +

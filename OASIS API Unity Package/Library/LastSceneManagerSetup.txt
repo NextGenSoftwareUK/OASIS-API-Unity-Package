@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Example/Scenes/OASIS Package Example.unity
+- path: Assets/OASIS API/Examples/Scenes/APITest UI.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

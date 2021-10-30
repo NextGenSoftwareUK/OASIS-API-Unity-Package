@@ -8,7 +8,6 @@ namespace OASIS.AVATAR
 {
     public class OASISAvatar : MonoBehaviour
     {
-        public int currentAPIVersion;
         private const string BASE_LIVE_URL = "https://api.oasisplatform.world/";
         private const string BASE_STAGING_URL = "https://www.staging.api.oasisplatform.world/";
         private string[] OASIS_Provider_Options = new string[] { "Default", "HoloOASIS", "EOSIOOASIS", "EthereumOASIS", "SolanaOASIS", "MongoDBOASIS", "SQLiteOASIS", "Neo4jOASIS", "ActivityPubOASIS", "ThreefoldOASIS" };
@@ -28,6 +27,8 @@ namespace OASIS.AVATAR
         }
 
         //Get without Authorization
+        public void GetStagingOASISVersion(Action<string> callback) => StartCoroutine(OASISBaseREST.OnGetRequest(GetBaseURL() + "api/stats/GetCurrentStagingVersion", callback));
+        public void GetLiveOASISVersion(Action<string> callback) => StartCoroutine(OASISBaseREST.OnGetRequest(GetBaseURL() + "api/stats/GetCurrentLiveVersion", callback));
         public void GetTerms(Action<string> callback) => StartCoroutine(OASISBaseREST.OnGetRequest(GetBaseURL() + "api/avatar/GetTerms", callback));
         public void GetAvatarImageById(string id, Action<string> callback) => StartCoroutine(OASISBaseREST.OnGetRequest(GetBaseURL() + "api/avatar/GetAvatarImage/" + id, callback));
         public void GetAvatarImageByUsername(string username, Action<string> callback) => StartCoroutine(OASISBaseREST.OnGetRequest(GetBaseURL() + "api/avatar/GetAvatarImageByUsername/" + username, callback));
