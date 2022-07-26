@@ -51,7 +51,7 @@ This package is for client unity applications to connect and work with the OASIS
 
 WEB4 OASIS API Unity Package allowing peeps to build and integrate the OASIS API into any unity application using C#. 
 
-This allows you to bridge between Holochain, IPFS, MongoDB, SQLLite, Neo4j, Solana, Ethereum, EOS & ThreeFold with many more coming soon such as COSMOS, Polkadot, Polygon, SOLID, ActivityPub, Near & many more! :)
+This allows you to bridge between all of WEB2 & WEB3 including Holochain, IPFS, MongoDB, SQLLite, Neo4j, Solana, Ethereum, EOS & ThreeFold with many more coming soon such as COSMOS, Polkadot, Polygon, SOLID, ActivityPub, Near & many more! :)
 
 WEB 4 OASIS API is a fully distributed decentralised fault tolerant load balanced integrated API that runs across the full Internet acting as an abstraction layer over everything and serves as a network of networks.
 
