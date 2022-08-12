@@ -5,7 +5,10 @@
   - [Overview](#overview)
     * [Best Of All Worlds](#best-of-all-worlds)
     * [Maximum Interopability/Aggregation](#maximum-interopabilityaggregation)
-    * [Full Redundancy/Zero Downtime](#full-redundancyzero-downtime)
+    * [HOT Swappable Plugin Architecture](#hot-swappable-plugin-architecture)
+    * [Full Redundancy/Zero Downtime/Impossible To Shutdown!](#full-redundancyzero-downtimeimpossible-to-shutdown)
+    * [HTTP REST/gRPC/GraphQL/CLI/Native Endpoints](#http-restgrpcgraphqlclinative-endpoints)
+    * [Javascript, Unity & C# Packages](#javascript-unity--c-packages)
     * [Avatar API](#avatar-api)
     * [Karma API](#karma-api)
     * [Full Accountability/Zero Crime/Dark Net Prove](#full-accountabilityzero-crimedark-net-prove)
@@ -74,6 +77,7 @@
 
 This package is for client unity applications to connect and work with the OASIS API. 
 
+
 ## Overview
 
 The WEB4 OASIS API enables you to integrate your project with everything else (WEB2 & WEB3) such as all blockchains, holochain & much more. It also provides SSO, load balancing, auto failover, auto replication, zero downtime, zero lag, infinite players and much more!
@@ -101,9 +105,24 @@ The WEB4 OASIS API connects & Integrates everything (all of WEB 2 & WEB 3) inclu
 
 The whole point of the OASIS API is to allow everything to be fully interoperable so data can be shared between any provider, the architecture opens the doors for many more use cases like importing and exporting your data between providers, aggregating all your data to remove all silos so better sense making and AI machine learning can be made to analyse and to make predictions, smart contract interoperability, etc
 
-### Full Redundancy/Zero Downtime
 
-It also allows full data redundancy and for it to be network independent so if one network goes down it can automatically switch to the next fastest node in your area regardless of what network it is on.
+### HOT Swappable Plugin Architecture
+
+The OASIS API features a HOT Swappable Plugin Architecture meaning any OASIS Provider can be deployed and used at runtime without having to re-compile or deploy a ONODE (OASIS Node). 
+
+
+### Full Redundancy/Zero Downtime/Impossible To Shutdown!
+
+It also allows full data redundancy and for it to be network independent so if one network goes down it can automatically switch to the next fastest node in your area regardless of what network it is on. So it will be impossible to shut the OASIS down, you need to shut the entire Internet down, goodluck with that! ;-)
+
+
+### HTTP REST/gRPC/GraphQL/CLI/Native Endpoints
+
+The OASIS API currently has a HTTP REST API, CLI & Native endpoints. gRPC & GraphQL are coming soon...
+
+### Javascript, Unity & C# Packages
+
+The OASIS API currently has a [Javascript](#javascript), [Unity](#unity) & [C#](#csharp) package, more are coming soon...
 
 ### Avatar API
 
@@ -162,8 +181,6 @@ The OASIS API will allow you to connect into everything including e-commerce, tr
 ### Full Smart Contract Interoperability
 
 Smart Contracts will be supported across any of the supported providers (network/platform/API/protocol), so you only need to write the contract once for your OAPP and then deploy your OAPP once and it will then take care of deploying and running your app/smart contract across all supported providers (network/platform/API/protocol).
-
-We are also building full smart contract interoperability
 
 ### Powerful Pick n Mix & Plug n Play UI Components
 
@@ -255,6 +272,12 @@ To summarize, WEB4 OASIS API aggregates all of the worlds data into a fully unif
 
 * **Maximum Interopability/Aggregation.**
 
+* **HOT Swapable PlugIn Architecture.**
+
+* **HTTP REST/gRPC/GraphQL/CLI/Native Endpoints.**
+
+* **Javascript, Unity & C# Packages - More Coming...**
+
 * **Write Once, Deploy Everywhere Now & Forever.**
 
 * **One API To Rule Them All - The GOD Protocol/API.**
@@ -267,7 +290,7 @@ To summarize, WEB4 OASIS API aggregates all of the worlds data into a fully unif
 
 * **Intelligent Key Management/Backups/Redundancy (never lose your keys again!).**
 
-* **Full Redundancy/Zero Downtime.**
+* **Full Redundancy/Zero Downtime/Impossible To Shutdown!**
 
 * **Zero Lag.**
 
