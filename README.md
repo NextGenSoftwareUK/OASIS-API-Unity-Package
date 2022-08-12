@@ -15,6 +15,7 @@
     * [Keys/Wallet API](#keyswallet-api)
     * [Works Offline/Local Networks (LAN, Bluetooth, Mesh Networks)](#works-offlinelocal-networks-lan-bluetooth-mesh-networks)
     * [One API To Rule Them All - The GOD Protocol/API](#one-api-to-rule-them-all---the-god-protocolapi)
+    * [Full Smart Contract Interoperability](#full-smart-contract-interoperability)
     * [Powerful Pick n Mix & Plug n Play UI Components](#powerful-pick-n-mix--plug-n-play-ui-components)
     * [WEB/2D/3D/AR/VR/IR/Map/Meta Visusalization](#web2d3darvrirmapmeta-visusalization)
     * [Our World Geo-Location/AR/IR/Map UI (Game Of Games Engine)](#our-world-geo-locationarirmap-ui-game-of-games-engine)
@@ -158,6 +159,12 @@ You can also of course fully manage every feature and option through the API its
 ### One API To Rule Them All - The GOD Protocol/API
 The OASIS API will allow you to connect into everything including e-commerce, trading, security, social networks, blockchains, holochain networks, etc. regardless of where they are running (WEB2 or WEB3/IoT).
 
+### Full Smart Contract Interoperability
+
+Smart Contracts will be supported across any of the supported providers (network/platform/API/protocol), so you only need to write the contract once for your OAPP and then deploy your OAPP once and it will then take care of deploying and running your app/smart contract across all supported providers (network/platform/API/protocol).
+
+We are also building full smart contract interoperability
+
 ### Powerful Pick n Mix & Plug n Play UI Components
 
 Soon you will also have a very powerful intuitive UI allowing anyone to build an OAPP through a simple intuitive to use drag n drop interface plugging together the various components (web, unity, unreal, metaverse & more) you need allowing you to focus on your ideas rather than on how to implement them. This will lower the barrier to entry for non-technical people, the perfect low-code solution!
@@ -251,6 +258,8 @@ To summarize, WEB4 OASIS API aggregates all of the worlds data into a fully unif
 * **Write Once, Deploy Everywhere Now & Forever.**
 
 * **One API To Rule Them All - The GOD Protocol/API.**
+
+* **Full Smart Contract Interoperability.**
 
 * **AI/Machine Learning Over All Of World's Aggregated Data.**
 
