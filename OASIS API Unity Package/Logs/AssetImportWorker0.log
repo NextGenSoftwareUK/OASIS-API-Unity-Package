@@ -1,278 +1,231 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1320; Version 2009; 64bit' Language: 'en' Physical Memory: 16324 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16324 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+D:\Softwares\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity Projects/OASIS-API-Unity-Package/OASIS API Unity Package
+D:/Unity_Projects/David/OASIS-API-Unity-Package/OASIS API Unity Package
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53430
-Successfully changed project path to: D:/Unity Projects/OASIS-API-Unity-Package/OASIS API Unity Package
-D:/Unity Projects/OASIS-API-Unity-Package/OASIS API Unity Package
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.25 ms, found 2 plugins.
+18576
+Successfully changed project path to: D:/Unity_Projects/David/OASIS-API-Unity-Package/OASIS API Unity Package
+D:/Unity_Projects/David/OASIS-API-Unity-Package/OASIS API Unity Package
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19024] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 820462065 [EditorId] 820462065 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CLUIMJ7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19024] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 820462065 [EditorId] 820462065 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CLUIMJ7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 36.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.18f1 (a7d1c678663c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity Projects/OASIS-API-Unity-Package/OASIS API Unity Package/Assets
-GfxDevice: creating device client; threaded=0
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/Softwares/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_Projects/David/OASIS-API-Unity-Package/OASIS API Unity Package/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
-    Vendor:   
-    VRAM:     6052 MB
-    Driver:   30.0.14.9649
+    Vendor:   NVIDIA
+    VRAM:     6043 MB
+    Driver:   31.0.15.3598
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Mono path[0] = 'D:/Softwares/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Softwares/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Softwares/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002680 seconds.
+Register platform support module: D:/Softwares/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Softwares/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003932 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.23 ms, found 2 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 38.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.797 seconds
+- Completed reload, in  0.753 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2797ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (530ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (537ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (198ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (299ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (65ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002079 seconds.
+Registered in 0.003308 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.307 seconds
+- Completed reload, in  1.364 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1308ms)
-		BeginReloadAssembly (189ms)
+	ReloadAssembly (1365ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1034ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1099ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (386ms)
+			SetupTypeCache (245ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (372ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (651ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (530ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.3 MB.
-System memory in use after: 68.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1886.
-Total: 3.173100 ms (FindLiveObjects: 0.172200 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.829700 ms  DeleteObjects: 0.117000 ms)
+Unloading 1762 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (56.5 KB). Loaded Objects now: 2230.
+Memory consumption went from 76.4 MB to 76.3 MB.
+Total: 4.811500 ms (FindLiveObjects: 0.317100 ms CreateObjectMapping: 0.161000 ms MarkObjects: 4.139800 ms  DeleteObjects: 0.175700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47071.074027 seconds.
+  path: Assets/OASIS API/Sprites/OASISLogo.jpg
+  artifactKey: Guid(1fe12cc67f214cf4883783a41a3d7a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OASIS API/Sprites/OASISLogo.jpg using Guid(1fe12cc67f214cf4883783a41a3d7a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3851255f3801b09c0b673bb9a71855') in 0.186637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.635167 seconds.
+  path: Assets/OASIS API/Sprites/OASISLogo.png
+  artifactKey: Guid(f496ff76a84dbb84d8e7148c4edf0d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OASIS API/Sprites/OASISLogo.png using Guid(f496ff76a84dbb84d8e7148c4edf0d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b607cfede23eba553ac3c3f930bf734') in 0.015546 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1319ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1029ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (559ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1743 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (24.5 KB). Loaded Objects now: 2241.
+Memory consumption went from 78.7 MB to 78.7 MB.
+Total: 4.029000 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.058500 ms MarkObjects: 3.719900 ms  DeleteObjects: 0.033400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Shaders/TMPro.cginc
-  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b84941a55f9012bae7f955040ccce9') in 0.371242 seconds 
-  Import took 2.075859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056901 seconds.
-  path: Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Shaders/TMP_SDF.shader
-  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af0d5a8804cb2fa54b547e1c2c916dc') in 0.011067 seconds 
-  Import took 0.575214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.863439 seconds.
-  path: Assets/OASIS API/Examples/Scripts/APIUIManager.cs
-  artifactKey: Guid(e5a9c79168b95944a804a8ccf9c6ebad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/Scripts/APIUIManager.cs using Guid(e5a9c79168b95944a804a8ccf9c6ebad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da02f8428c55fcdd18d85c2755210066') in 0.012420 seconds 
-  Import took 0.090309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.475780 seconds.
-  path: Assets/OASIS API/Examples/Font/Jupiter.ttf
-  artifactKey: Guid(2a71d00f757442d40af67086354a341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/Font/Jupiter.ttf using Guid(2a71d00f757442d40af67086354a341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05e57286e7b1f45e0e6da23db902e49') in 0.176880 seconds 
-  Import took 0.244751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.760298 seconds.
-  path: Assets/OASIS API/Examples/Sprites/DownArrow.png
-  artifactKey: Guid(72f6fe0de4dd5ce4f8a2d045e684a1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/Sprites/DownArrow.png using Guid(72f6fe0de4dd5ce4f8a2d045e684a1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543ca393b0f549a82e2a88656ab15bbc') in 0.104499 seconds 
-  Import took 1.318119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.119677 seconds.
-  path: Assets/OASIS API/Wrapper/OASISAvatar.cs
-  artifactKey: Guid(0f8f6b9b79cb67a4fa3d94ac57c7f29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Wrapper/OASISAvatar.cs using Guid(0f8f6b9b79cb67a4fa3d94ac57c7f29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8432b96093d93b4597f6af72130e774') in 0.006973 seconds 
-  Import took 0.010054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.217220 seconds.
-  path: Assets/OASIS API/Examples/Sprites/SF Button.psd
-  artifactKey: Guid(2b8aab569604e524fba13430f46958a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/Sprites/SF Button.psd using Guid(2b8aab569604e524fba13430f46958a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429529fccd9f36623bfc1ed744d07c1a') in 1.996207 seconds 
-  Import took 2.067605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.244689 seconds.
-  path: Assets/OASIS API/Examples/Sprites/Tick.png
-  artifactKey: Guid(f9510aef46868374d8b60213f801867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/Sprites/Tick.png using Guid(f9510aef46868374d8b60213f801867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be5bb130002f2b61c812296360e6cb5') in 0.392603 seconds 
-  Import took 0.407769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063088 seconds.
-  path: Assets/OASIS API/Wrapper/SimpleJSON.cs
-  artifactKey: Guid(5d41f813586cae94789e75bd15d0e5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Wrapper/SimpleJSON.cs using Guid(5d41f813586cae94789e75bd15d0e5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58b86bfc6c0654e8a2270bff139438a') in 0.006699 seconds 
-  Import took 0.058892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.119509 seconds.
-  path: Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7c05a42c289f0815e9a45648e0a737') in 0.005776 seconds 
-  Import took 0.025127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.178128 seconds.
-  path: Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f32f6e7a6d3f7709d5a88498d70826') in 0.487317 seconds 
-  Import took 0.545630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.151999 seconds.
-  path: Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Shaders/TMPro_Properties.cginc
-  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b87a6c906e2ff6005352074e70dba6') in 0.112637 seconds 
-  Import took 0.190370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079288 seconds.
-  path: Assets/OASIS API/Examples/Sprites/SF Window.psd
-  artifactKey: Guid(71d06e8571769f6478693aa11d15f305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/Sprites/SF Window.psd using Guid(71d06e8571769f6478693aa11d15f305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e252940e276773aa1331c0b33ef867c') in 0.064822 seconds 
-  Import took 0.111161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.140062 seconds.
-  path: Assets/OASIS API/Wrapper/JSON Classes/OASISAvatarJSONInputStructs.cs
-  artifactKey: Guid(a63d9d40ddabec24b88368829ad2fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Wrapper/JSON Classes/OASISAvatarJSONInputStructs.cs using Guid(a63d9d40ddabec24b88368829ad2fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b997c07f460892f4c01da387fd980b') in 0.008123 seconds 
-  Import took 0.468419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.440514 seconds.
-  path: Assets/OASIS API/Editor/OASISAPIBaseManager.cs
-  artifactKey: Guid(f653c0209e828e9479a408ac999a8d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Editor/OASISAPIBaseManager.cs using Guid(f653c0209e828e9479a408ac999a8d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da463990b82bacced77ba656877abea4') in 0.005748 seconds 
-  Import took 0.008063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042345 seconds.
-  path: Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.286978 seconds 
-  Import took 0.303874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.618159 seconds.
-  path: Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/_ExternalAssets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.014066 seconds 
-  Import took 0.164024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057139 seconds.
-  path: Assets/OASIS API/Examples/Font/Jupiter SDF.asset
-  artifactKey: Guid(f4a9f0e53f63ea845b17b32c3e1e5529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OASIS API/Examples/Font/Jupiter SDF.asset using Guid(f4a9f0e53f63ea845b17b32c3e1e5529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda7aae79ab899d652a7a4027ead79a4') in 0.145490 seconds 
-  Import took 0.187463 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
